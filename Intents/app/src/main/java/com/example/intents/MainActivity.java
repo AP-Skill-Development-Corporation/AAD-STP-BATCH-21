@@ -38,5 +38,13 @@ public class MainActivity extends AppCompatActivity {
     /*Explicit Intent*/
     public void next(View view) {
 
+        String name = et2.getText().toString();
+
+        /*Create Intent*/
+       Intent i = new Intent(this,SecondActivity.class);
+       /*Data parsing */
+        i.putExtra("MyName",name);
+       startActivity(i);
+
     }
 }
