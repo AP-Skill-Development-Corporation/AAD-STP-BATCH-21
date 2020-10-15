@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UserRegistrationForm</string>
+    <string-array name="qulification">
+        <item>B.tech</item>
+        <item>M.tech</item>
+        <item>Phd</item>
+    </string-array>
 </resources>
