@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+    <string-array name="movie_names">
+        <item>Arya</item>
+        <item>Brundhavanam</item>
+        <item>Chatrapathi</item>
+        <item>Dookudu</item>
+        <item>Eega</item>
+        <item>F2</item>
+        <item>Gabharsingh</item>
+    </string-array>
+    <string-array name="hero_names">
+        <item>Allu Arjun</item>
+        <item>Jr.NTR</item>
+        <item>Prabash</item>
+        <item>Mahesh Babu</item>
+        <item>Nani</item>
+        <item>Venkatesh</item>
+        <item>Pavan Kalyan</item>
+    </string-array>
+</resources>
