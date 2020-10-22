@@ -35,6 +35,16 @@
             android:id="@+id/rollnumber"
             android:hint="Enter the Rollnumber" />
     </com.google.android.material.textfield.TextInputLayout>
+   <!-- <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_s"
+        android:hint="enter the name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl"
+        android:hint="enter the rollnumber"/>-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
