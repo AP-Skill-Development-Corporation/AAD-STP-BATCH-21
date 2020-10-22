@@ -12,15 +12,21 @@
     >
 
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Covid19 Daily Updates!"
+        android:text="@string/title"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
          />
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tg"
+        />
     <TextView
         android:id="@+id/date"
         android:layout_width="match_parent"
@@ -29,7 +35,7 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:textColor="#000"
-        android:text="Date " />
+        android:text="@string/date" />
 
     <TextView
         android:id="@+id/country"
@@ -39,7 +45,7 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:textColor="#F30657"
-        android:text="country " />
+        android:text="@string/country" />
     <TextView
         android:id="@+id/confirmed"
         android:layout_width="match_parent"
@@ -48,7 +54,7 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:textColor="#FF5722"
-        android:text="Confirmed " />
+        android:text="@string/confirmed" />
     <TextView
         android:id="@+id/deaths"
         android:layout_width="match_parent"
@@ -57,7 +63,7 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:textColor="#C70DE6"
-        android:text="Deaths " />
+        android:text="@string/deaths" />
 
     <TextView
         android:id="@+id/recovered"
@@ -76,7 +82,7 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:textColor="#ED4009"
-        android:text="Active " />
+        android:text="@string/active" />
 
 
 

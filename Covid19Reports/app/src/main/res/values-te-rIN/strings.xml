@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">కోవిడ్ 19 నివేదికలు</string>
+    <string name="title">కరోనా రోజు సమాచారం</string>
+    <string name="date">తేదీ</string>
+    <string name="confirmed">ధ్రువీకరించారు</string>
+    <string name="deaths">మరణాలు</string>
+    <string name="active">యాక్టివ్</string>
+    <string name="country">దేశం</string>
+    <string name="recovered">కోలుకున్నారు</string>
+</resources>
