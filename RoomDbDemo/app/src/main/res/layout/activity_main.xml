@@ -51,12 +51,12 @@
         android:layout_margin="10dp"
         android:id="@+id/save_btn"
         android:text="Save"/>
-    <Button
+   <!-- <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:text="Retrive"
-        android:id="@+id/retrive_btn"/>
+        android:id="@+id/retrive_btn"/>-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
