@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SharePrefarences example!"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+         />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter the user name"
+    android:id="@+id/et_name"
+    android:layout_margin="10dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the password"
+        android:id="@+id/et_password"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="showData"/>
+</LinearLayout>
